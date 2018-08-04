@@ -13,12 +13,12 @@ class Doctor
     @@all
   end
   #
-  # def new_song(name, genre)
-  #   song = Song.new(name, self, genre)
-  #   @songs << song
-  #   @genres << genre
-  #   song
-  # end
+  def new_appointment(patient, date)
+    appointment = appointment.new(date, self, patient)
+    @songs << song
+    @genres << genre
+    song
+  end
   #
   # def songs
   #   @songs
