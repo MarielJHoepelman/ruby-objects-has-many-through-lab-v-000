@@ -26,6 +26,7 @@ class Artist
 
   def genres
     @genres
+
   end
 #
 #   def add_song(song)
