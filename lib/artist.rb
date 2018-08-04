@@ -16,11 +16,16 @@ class Artist
   def new_song(name, genre)
     song = Song.new(name, self, genre)
     @songs << song
+    @genre << genre
     song
   end
 
   def songs
     @songs
+  end
+
+  def genres
+
   end
 #
 #   def add_song(song)
