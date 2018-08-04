@@ -4,7 +4,7 @@ class Patient
 
   def initialize(name)
     @name = name
-    #@genres = []
+    @appointments = []
     #@songs = []
     @@all << self
   end
