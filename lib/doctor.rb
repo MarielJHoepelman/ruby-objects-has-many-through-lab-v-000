@@ -12,7 +12,7 @@ class Doctor
   def self.all
     @@all
   end
-  #
+  
   def new_appointment(patient, date)
     appointment = Appointment.new(patient, self, date)
     @appointments << appointment
